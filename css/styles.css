@@ -1,0 +1,78 @@
+/********************************************************TAG SELECTORS***********************************************************/
+
+body {
+  background-color: #F7EDDB;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #CFD2CF;
+  border-width: 7px;
+  width: 15%;
+  position: relative;
+  top: 10px;
+}
+
+h1 {
+  color: #495C83;
+}
+
+h2 {
+  color: #3A3845;
+}
+
+h3 {
+  color: #006778;
+}
+
+/********************************************************CLASS SELECTORS***********************************************************/
+
+.button {
+  border: 2px solid #7D9D9C;
+  border-radius: 7px;
+}
+
+.feedback {
+  position: relative;
+  top: 25px;
+}
+
+.fieldp1 {
+  position: relative;
+  bottom: 4px;
+}
+
+.fieldp2 {
+  position: relative;
+  top: 10px;
+}
+
+.label1 {
+  position: relative;
+  bottom: 10px;
+}
+
+.label2 {
+  position: relative;
+  top: 6px;
+}
+
+.label3 {
+  position: relative;
+  top: 18px;
+}
+
+.txtfields {
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.txtfields:focus {
+  background-color: #CAF0F8;
+}
+
+.txtfields:-webkit-autofill {
+  border: 2px solid #7D9D9C;
+  box-shadow: 0 0 0 50px white inset;
+}
